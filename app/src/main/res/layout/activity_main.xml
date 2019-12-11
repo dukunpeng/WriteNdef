@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#000000">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="NDEF数据写入"
+    android:gravity="center"
+    android:textColor="#ffffff"
+    android:padding="15dp"/>
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="请输入要写入的数据"/>
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/circle_blue_shape"
+        android:gravity="center"
+        android:text="RTD_TET写入"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/uri_submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/circle_blue_shape"
+        android:gravity="center"
+        android:text="RTD_URI写入"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/txt_uri_submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/circle_blue_shape"
+        android:gravity="center"
+        android:text="RTD_TXT_URI写入"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/uri_txt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/circle_blue_shape"
+        android:gravity="center"
+        android:text="RTD_URI+TXT写入"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:textColor="#89ffffff"
+        android:text="请将卡片接触设备再写入"
+        android:gravity="center"
+        />
+
+</LinearLayout>
